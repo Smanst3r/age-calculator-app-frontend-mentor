@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="index.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card" id="card">
+      <form action="">
+        <div class="card-body">
+          <div class="editor">
+            <div class="input-group">
+
+              <div class="input">
+                <label for="day-input">Day</label>
+                <input type="text" id="day-input" name="day" placeholder="DD" autocomplete="off" maxlength="2" data-target-placeholder="day">
+              </div>
+
+              <div class="input">
+                <label for="month-input">Month</label>
+                <input type="text" id="month-input" name="month" placeholder="MM" autocomplete="off" maxlength="2" data-target-placeholder="month">
+              </div>
+
+              <div class="input">
+                <label for="year-input">Year</label>
+                <input type="text" id="year-input" name="year" placeholder="YYYY" autocomplete="off" maxlength="4" data-target-placeholder="year">
+              </div>
+
+            </div>
+            <div class="submit-row row">
+              <div class="col line-col">
+                <hr>
+              </div>
+              <div class="col-auto">
+                <button class="submit-btn" type="submit">
+                  <img src="assets/images/icon-arrow.svg" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="years preview-row">
+              <span class="preview-placeholder" data-placeholder-year>-</span>
+              <span class="preview-placeholder" data-placeholder-year>-</span>
+              <span class="preview-label">years</span>
+            </div>
+            <div class="months preview-row">
+              <span class="preview-placeholder" data-placeholder-month>-</span>
+              <span class="preview-placeholder" data-placeholder-month>-</span>
+              <span class="preview-label">months</span>
+            </div>
+            <div class="days preview-row">
+              <span class="preview-placeholder" data-placeholder-day>-</span>
+              <span class="preview-placeholder" data-placeholder-day>-</span>
+              <span class="preview-label">days</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<!--  Day-->
+<!--  DD-->
+
+<!--  Month-->
+<!--  MM-->
+
+<!--  Year-->
+<!--  YYYY-->
+
+<!--  &#45;&#45; years-->
+<!--  &#45;&#45; months-->
+<!--  &#45;&#45; days-->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
